@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+#gallery{
+    background-color: #eeeeee;
+    padding: 3%;
+    text-align: center;
+}  
+#gallery .gallery-heading{
+    padding: 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #eeeeee; */
+    color: rgba(37, 31, 68, 1);
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+@media(max-width: 630px){
+    #gallery .gallery-heading{
+        padding: 2%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        /* background-color: #eeeeee; */
+        color: rgba(37, 31, 68, 1);
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    #gallery .container {
+        position: relative;
+        text-align: center;
+        padding-top: 2%;
+        background-color: rgba(37, 31, 68, 1);
+        width: 100%;
+    }
+    
+}
+/* Position the image container (needed to position the left and right arrows) */
+@media(min-width: 1000px){
+    #gallery .container {
+        position: relative;
+        text-align: center;
+        padding-top: 2%;
+        background-color: rgba(37, 31, 68, 1);
+        width: 50%;
+    }
+}
+
+
+  /* Hide the images by default */
+  #gallery  .mySlides {
+    display: none;
+    /* text-align: center; */
+  }
+  #gallery .Image{
+      text-align: center;
+      width: 100%;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  #gallery .cursor {
+    cursor: pointer;
+  }
+  /* Position the "next button" to the right */
+  #gallery .next {
+    right: 0;
+    border-radius: 5px 45px 45px 5px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  #gallery .prev:hover,
+  .next:hover {
+    background-color: #eeeeee;
+  }
+  
+  /* Number text (1/3 etc) */
+  #gallery .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  #gallery .caption-container {
+    text-align: center;
+    background-color: rgba(37, 31, 68, 1);
+    padding: 1px;
+    color: white;
+  }
+  #gallery #caption{
+    margin-bottom: 0rem;
+  }
+  #gallery .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  #gallery .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  #gallery .demo {
+    opacity: 0.85;
+    border: 2px solid rgba(37, 31, 68, 1);
+  }
+  
+  #gallery .active,
+  .demo:hover {
+    opacity: 1;
+  }

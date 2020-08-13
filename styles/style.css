@@ -1,0 +1,970 @@
+/* SMIT LOGO  */
+.smit-logo{
+    text-align: center;
+}
+.smit-logo-image{
+    width: 30%;
+}
+
+/* navbar section  */
+.navbar-bg-custom{
+    background-color: #251f44;
+}
+.nav-item{
+    padding: 0 8px;
+}
+/* brand-logo */
+.brand-logo{
+    width: 170px;
+    height: 45px;
+}
+@media(max-width: 620px){
+    .brand-logo{
+    width: 120px;
+    height: 35px;
+    }
+}
+/* carousel */
+#carousel-image-section{
+    text-align: center;
+}
+#carousel-image-section .container-fluid{
+    padding: 0;
+}
+#carousel-image-section #image{
+    text-align: center;
+}
+@media(max-width: 630px){
+#carousel-image-section .carousel-image{
+       text-align: center;
+       width: 630px;
+       height: 300px;
+   }
+}
+/* heading section  */
+#heading #heading-big{
+    /* background-color: #6f4a8e; */
+    color: #fff;
+    /* background-color: #005086; */
+    background-color: #251f44;
+    text-align: center;
+}
+#heading .container-fluid{
+    padding: 8% 0;
+}
+#heading .heading-big-content-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750;
+    font-size: 3rem;
+}
+#heading .heading-big-content-h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 2rem;
+}
+#heading .heading-big-content-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+#heading-big .heading-big-content-h5{
+    font-family: monospace;
+}
+#ccb-link{
+    border: 6px dotted #c7c7c7;
+        border-bottom: none;
+        width: 5%;
+        border-width: 15%;
+        margin: 30px auto 30px auto;
+}
+@media (max-width: 630px){
+    #heading .container-fluid{
+        padding: 6% 0;
+    }
+    #heading .heading-big-content-h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+    #heading .heading-big-content-h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+    #heading .heading-big-content-h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    #heading-big .heading-big-content-h5{
+        font-family: monospace;
+    }
+}
+#heading #heading-details{
+    padding: 5% 3%;
+    background-color: #eeeeee;
+}
+#heading .heading-details-heading{
+    color: #251f44;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 0 5px 5px 5px;
+}
+#heading .heading-details-content{
+    padding: 0 5px;
+}
+
+/* submission date / Important date */
+#submission{
+    padding: 2% 0;
+}
+#submission .card-header{
+    color: #fff;
+    background-color: #251f44;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 1px;
+    padding: 10px 38px;
+    font-size: 1.8rem;
+}
+@media (max-width: 630px){
+    #submission .card-header{
+        color: #fff;
+        background-color: #251f44;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }        
+}
+#submission .card-body{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #3f395c; */
+    background-color: #251f44;
+}
+#submission .colortext{
+    background-color:#515172;
+    color: white;
+}
+#submission .colortext1{
+    background-color: #fff;
+    color: black;
+}
+/* ABOUT SIKKIM, SMU, SMIT SECTION */
+#about-us{
+    padding: 5% 4%;
+    /* background-color: #251f44; */
+    background-color: #eeeeee;
+    
+}
+#about-us .about-content{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+#about-us .about-heading{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+#about-us .shadow {
+    /* box-shadow: rgba(60, 41, 70, 2)!important; */
+    box-shadow: 0 .5rem 1rem rgba(60, 41, 70, 2)!important;
+}
+#about-us .rounded {
+    border-radius: 2.25rem!important;
+}
+#about-us .bg-custom {
+    background-color: #251f44!important;
+}
+.smu, .sikkim, .smit, .management-dept{
+    padding: 3%;
+}
+@media (max-width: 630px){
+    .smu, .sikkim, .smit, .management-dept{
+        padding: 1.8%;
+    }
+    #about-us .about-heading{
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+/* organizing_committee section*/
+/* #organizing_committee{
+    margin: 50px 0;
+} */
+.header-bg-custom{
+    background-color: #005086;
+    /* background-color: #251f44; */
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    opacity: 1;
+}
+.card-bg-custom{
+    /* background-color: #084177; */
+    background-color: #318fb5;
+    color: black;
+    opacity: .85;
+}
+.list-custom{
+    background-color: #fff;
+}
+#banner { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../images/smit-7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px;
+    z-index: -1;
+}
+#banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 80, 134, 0.2);
+    /* background-color: rgba(32, 106, 93, 0.38); */
+}
+
+@media (max-width: 630px){
+    #banner { 
+        position: relative; 
+        /* height: 100vh; */
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        background-image: url('../images/smit-7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        padding: 10px;
+        z-index: -1;
+    }
+    
+    #banner::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(31, 64, 104, 0.38);
+    }
+}
+#banner1 { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../images/smit-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px;
+    z-index: -1;
+}
+#banner1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 80, 134, 0.2);
+    /* background-color: rgba(32, 106, 93, 0.38); */
+}
+
+@media (max-width: 630px){
+    #banner1 { 
+        position: relative; 
+        /* height: 100vh; */
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        background-image: url('../images/smit-6.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        padding: 10px;
+        z-index: -1;
+    }
+    
+    #banner1::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(31, 64, 104, 0.38);
+    }
+}
+#banner2 { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../images/hostel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px;
+    z-index: -1;
+}
+#banner2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 80, 134, 0.2);
+    /* background-color: rgba(32, 106, 93, 0.38); */
+}
+
+@media (max-width: 630px){
+    #banner2 { 
+        position: relative; 
+        /* height: 100vh; */
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        background-image: url('../images/hostel1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        padding: 10px;
+        z-index: -1;
+    }
+    
+    #banner2::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(31, 64, 104, 0.38);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* smit_organizing_committee */
+#smit_organizing_committee{
+    background-color: #eeeeee;
+    padding: 50px;
+}
+@media(max-width: 630px){
+    #smit_organizing_committee{
+        background-color: #eeeeee;
+        padding: 60px 20px 0px 20px;
+    }
+}
+#smit_organizing_committee .shadow {
+    /* box-shadow: rgba(60, 41, 70, 2)!important; */
+    box-shadow: 0 0.5rem 4rem rgba(60, 41, 70, 2)!important;
+}
+#smit_organizing_committee .rounded {
+    border-radius: 1.25rem!important;
+}
+#smit_organizing_committee .bg-custom {
+    background-color: #251f44!important;
+}
+#smit_organizing_committee .card-bg-custom{
+    background-color: #251f44;
+}
+#smit_organizing_committee .header-bg-custom{
+    background-color: #251f44;
+    /* border: 1px dotted white; */
+}
+#smit_organizing_committee .list-custom{
+    background-color: #251f44;
+    border: 1px solid white;
+    color: #fff;
+    display: block;
+}
+#smit_organizing_committee .list-custom1{
+    background-color: #eeeeee;
+    /* border: 1px solid white; */
+    color: #000;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* program_committee */
+#program_committee{
+    background-color: #eeeeee;
+    padding: 50px;
+}
+@media(max-width: 630px){
+    #program_committee{
+        background-color: #eeeeee;
+        padding: 0 20px;
+    }
+}
+#program_committee .shadow {
+    /* box-shadow: rgba(60, 41, 70, 2)!important; */
+    box-shadow: 0 0.5rem 4rem rgba(60, 41, 70, 2)!important;
+}
+#program_committee .rounded {
+    border-radius: 1.25rem!important;
+}
+#program_committee .bg-custom {
+    background-color: #251f44!important;
+}
+#program_committee .card-bg-custom{
+    background-color: #251f44;
+}
+#program_committee .header-bg-custom{
+    background-color: #251f44;
+    /* border: 1px dotted white; */
+}
+#program_committee .list-custom{
+    background-color: #251f44;
+    border: 1px solid white;
+    color: #fff;
+    display: block;
+}
+#program_committees .list-custom1{
+    background-color: #eeeeee;
+    /* border: 1px solid white; */
+    color: #000;
+    display: block;
+}
+
+
+
+
+
+
+
+/* advisory_committee */
+#advisory_committee{
+    background-color: #eeeeee;
+    padding: 50px;
+}
+@media(max-width: 630px){
+    #advisory_committee{
+        background-color: #eeeeee;
+        padding: 0 20px;
+    }
+}
+#advisory_committee .shadow {
+    /* box-shadow: rgba(60, 41, 70, 2)!important; */
+    box-shadow: 0 0.5rem 4rem rgba(60, 41, 70, 2)!important;
+}
+#advisory_committee .rounded {
+    border-radius: 1.25rem!important;
+}
+#advisory_committee .bg-custom {
+    background-color: #251f44!important;
+}
+#advisory_committee .card-bg-custom{
+    background-color: #251f44;
+}
+#advisory_committee .header-bg-custom{
+    background-color: #251f44;
+    /* border: 1px dotted white; */
+}
+#advisory_committee .list-custom{
+    background-color: #251f44;
+    border: 1px solid white;
+    color: #fff;
+    display: block;
+}
+#advisory_committee .list-custom1{
+    background-color: #eeeeee;
+    /* border: 1px solid white; */
+    color: #000;
+    display: block;
+}
+
+
+
+
+
+
+
+/* theme */
+#theme{
+    padding: 5%;
+}
+@media (max-width: 630px){
+    #theme .col-custom{
+        margin-bottom: 10px;
+    }
+    #theme .card-bg-custom{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #eeeeee;
+        color: #000;
+        text-align: center;
+    }
+}
+#theme .header-bg-custom{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #303960;
+    color: #fff;
+    text-align: center;
+}
+#theme .card-bg-custom{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    color: #000;
+}
+
+
+
+
+
+
+
+/* registration section  */
+
+#registration{
+    padding: 5%;
+    background-color: #eeeeee;
+}
+@media (max-width: 630px){
+    #registration .col-custom{
+        margin-bottom: 10px;
+    }
+    #registration .card-bg-custom{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #eeeeee;
+        color: #000;
+        text-align: center;
+    }
+    /* #registration .body-bg-custom{
+        padding: 0 0;
+    } */
+}
+#registration .col-custom{
+    margin-bottom: 10px;
+}
+#registration .header-bg-custom{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #303960;
+    color: #fff;
+    text-align: center;
+}
+/* #registration .body-bg-custom{
+    padding: 57px 0;
+} */
+#registration .card-bg-custom{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    color: #000;
+    border: 1px solid #303960;
+}
+#registration .list-custom{
+    border: 1px solid #303960;
+
+}
+
+
+
+
+
+
+
+
+/* registration-pay-section   */
+#registration_pay{
+    background-color: #eeeeee;
+    padding: 50px;
+}
+@media(max-width: 630px){
+    #registration_pay{
+        background-color: #eeeeee;
+        padding: 50px 20px;
+    }
+}
+#registration_pay .bg-custom{
+    background-color: #251f44!important;
+}
+#registration_pay .rounded{
+    border-radius: 1rem!important;
+}
+#registration_pay .shadow {
+    /* box-shadow: rgba(60, 41, 70, 2)!important; */
+    border: 4px solid #fff;
+    box-shadow: 0 0.5rem 4rem rgba(60, 41, 70, 2)!important;
+}
+#registration_pay .card-bg-custom{
+    background-color: #251f44;
+}
+#registration_pay .header-bg-custom{
+    background-color: #251f44;
+}
+#registration_pay .body-content{
+    color: #fff;
+    padding: 1% 0;
+}
+#registration_pay .list-custom{
+    border: 1px solid #251f44;
+}
+#REGISTRATION-PAYING-CASH{
+        border: 6px dotted #c7c7c7;
+        border-bottom: none;
+        width: 90%;
+        border-width: 15%;
+        margin: 0px auto 10px auto;
+}
+
+
+
+
+
+
+
+/* objective-documentation */
+#objective-documentation{
+    padding: 50px;
+}
+@media(max-width: 630px){
+    #objective-documentation{
+        padding: 50px 20px;
+    }
+    #objective-documentation .col-custom{
+        margin-bottom: 10px;
+    }   
+}
+#objective-documentation .card-header-custom{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #303960;
+    color: #fff;
+    text-align: center;
+}
+#objective-documentation .card-body-custom{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    color: #000;
+    font-size: .9rem;
+}
+
+
+
+/* call_for_paper */
+#call_for_paper{
+    padding: 6% 2%;
+    background-color: #eeeeee;
+}
+@media(max-width){
+    #call_for_paper{
+        padding: 3% 2%;
+        background-color: #eeeeee;
+    }        
+}
+#call_for_paper .container-fluid{
+    border: 20px solid #0f4c75;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#call_for_paper .heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: #0f4c75;
+    color: #fff;
+    padding: 1%;
+}
+#call_for_paper .text{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1%;
+}
+#call_for_paper .call_for_paper_section{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+#call_for_paper .call_for_paper_section_heading{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    /* border-radius: 5%!important; */
+    background-color: #318fb5;
+    padding: 1%;
+}
+#call_for_paper .call_for_paper_section_text{
+    font-size: 1rem;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+/* how_to_submit_paper */
+#how_to_submit_paper{
+    padding: 4% 2%;
+}
+@media(max-width){
+    #how_to_submit_paper{
+        padding: 2% 2%;
+    }        
+}
+#how_to_submit_paper .heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: #0f4c75;
+    color: #fff;
+    padding: 1%;
+}
+#how_to_submit_paper .container-fluid{
+    border: 20px solid #0f4c75;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#how_to_submit_paper .text{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    padding: 1%;
+}
+
+
+
+
+
+
+/* about-it-dept */
+#about-it-dept .heading{
+    color: #251f44;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#about-it-dept .jumbotron{
+    margin: 0;
+}
+@media (max-width: 630px){
+    #about-it-dept .heading{
+        color: #251f44;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+}
+#about-it-dept .text-field{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+/* thrust_areas */
+#thrust_areas{
+    padding: 6% 2%;
+    background-color: #eeeeee;
+}
+@media(max-width){
+    #thrust_areas{
+        padding: 3% 2%;
+        background-color: #eeeeee;
+    }        
+}
+#thrust_areas .container-fluid{
+    border: 20px solid #0f4c75;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#thrust_areas .heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: #0f4c75;
+    color: #fff;
+    padding: 1%;
+}
+#thrust_areas .text{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1%;
+}
+#thrust_areas .thrust_areas_section{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+#thrust_areas .thrust_areas_section_heading{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    /* border-radius: 5%!important; */
+    background-color: #318fb5;
+    padding: 1%;
+}
+#thrust_areas .thrust_areas_section_text{
+    font-size: 1rem;
+    padding: 2%;
+}
+
+
+
+
+
+
+/* organizer */
+#organizer{
+    padding: 5% 2%;
+}
+@media(max-width: 630px){
+    #organizer{
+        padding: 3% 2%;
+    }
+    #organizer .col-custom{
+        margin-bottom: 10px;
+    }
+}
+#organizer .card-bg-custom{
+    background-color: #eeeeee;
+    color: #000;
+}
+#organizer .header-custom{
+    background-color: #251f44;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* contact us  */
+#contact{
+    background-color: #1b1c25;
+    padding: 5%;
+    color: #fff;
+    padding-bottom: 50px;
+}
+#contact .contact-heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+#contact .contact-number{
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+#contact .col-custom{
+    padding-top: 20px;
+    padding-left: 8%;
+}
+#contact .smit-image-logo{
+    text-align: center;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+}
+#contact .contact-footer{
+    padding-top: 40px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.4rem;
+}
+@media(max-width: 830px){
+    #contact .smit-image-logo{
+        display: none;
+    } 
+    #contact .contact-footer{
+        padding-top: 20px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 1.2rem;
+    }       
+}
+
+
+
+
+/* footer section  */
+footer{
+    padding: 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+;
+footer .copyright{
+    margin-top: 10px;
+}
+@media(max-width: 630px){
+    footer{
+        padding: 1px 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #000;
+        font-size: .5rem;
+        text-align: center;
+        color: #fff;
+    }
+    footer .copyright{
+        margin-top: 10px;
+    }
+}
